@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf58da6c-ef17-44ad-bb77-38254becea38" name="Default Changelist" comment="" />
+    <list default="true" id="bf58da6c-ef17-44ad-bb77-38254becea38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/transform/ConverterToXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/transform/ConverterToXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/resultSecondTask.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/resultSecondTask.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/resultThirdTask.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/resultThirdTask.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/transformToCSV.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/transformToCSV.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resultThirdTask.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/transform/ConverterToXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transform/ConverterToXml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/transformToCSV.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transformToCSV.xsl" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -36,6 +51,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1kjJNO4bILuv4vEtcDFUyIqEfeN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -45,6 +61,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringJMS/src/main/resources/application.properties" />
@@ -77,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606208026385</updated>
       <workItem from="1606208029956" duration="17238000" />
-      <workItem from="1606282486629" duration="14259000" />
+      <workItem from="1606282486629" duration="15135000" />
     </task>
     <servers />
   </component>
@@ -97,22 +114,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606215828397" />
-    <state width="1323" height="137" key="GridCell.Tab.0.bottom" timestamp="1606301172879">
+    <state width="1323" height="98" key="GridCell.Tab.0.bottom" timestamp="1606302199350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606301172879" />
-    <state width="1323" height="137" key="GridCell.Tab.0.center" timestamp="1606301172879">
+    <state width="1323" height="98" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606302199350" />
+    <state width="1323" height="98" key="GridCell.Tab.0.center" timestamp="1606302199348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606301172879" />
-    <state width="1323" height="137" key="GridCell.Tab.0.left" timestamp="1606301172879">
+    <state width="1323" height="98" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606302199348" />
+    <state width="1323" height="98" key="GridCell.Tab.0.left" timestamp="1606302199347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606301172879" />
-    <state width="1323" height="137" key="GridCell.Tab.0.right" timestamp="1606301172879">
+    <state width="1323" height="98" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606302199347" />
+    <state width="1323" height="98" key="GridCell.Tab.0.right" timestamp="1606302199349">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606301172879" />
+    <state width="1323" height="98" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606302199349" />
     <state width="1323" height="131" key="GridCell.Tab.1.bottom" timestamp="1606289644831">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

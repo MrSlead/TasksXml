@@ -127,7 +127,7 @@ public class ConverterToXml {
         // Third Task
         transformXmlFile("./src/main/resources/transformToCSV.xsl",
                 "./src/main/resources/resultSecondTask.xml",
-                "./src/main/resources/resultThirdTask.xml", 0);
+                "./src/main/resources/resultThirdTask.txt", 0);
     }
 
     private void transformXmlFile(String xslFile, String inputFile, String outputFile, int indent) {

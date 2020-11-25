@@ -5,9 +5,9 @@
 
     <xsl:template match="/">
         <xsl:text>ID_ART,NAME,CODE,USERNAME,GUID</xsl:text>
-        <xsl:value-of select="'&#10;'"/>
+        <xsl:value-of select="'&#10;&#10;'"/>
 
-        <xsl:for-each select="//article">
+        <xsl:for-each select="articles/article">
             <xsl:value-of select="id_art" />
             <xsl:value-of select="','" />
 
