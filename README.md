@@ -1,5 +1,14 @@
 ### Задачи для XML
 
+#### Подготовка
+Создать таблицу article в любой доступной БД:
+CREATE TABLE article
+(id_art int,
+name varchar(255),
+code varchar(255),
+username varchar(255),
+guid varchar(255));
+
 #### Задача 1
 На основании запроса SELECT ID_ART,NAME,CODE,USERNAME,GUID FROM WHS.ARTICLE where rownum < 10000<br>
 Сформировать XML вида: <br>

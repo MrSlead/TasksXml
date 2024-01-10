@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bf58da6c-ef17-44ad-bb77-38254becea38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/converter/ConverterToXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/converter/ConverterToXmlDOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/converter/ConverterToXmlJAXB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/H2Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transform/TransformXmlFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/transform/ConverterToXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/transform/ConverterToXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/H2Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/H2ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/transform/ConverterToXml.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/resultFirstTask.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/resultFirstTask.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/resultSecondTask.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/resultSecondTask.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/resultThirdTask.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/resultThirdTask.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/transformToCSV.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/transformToCSV.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resultThirdTask.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/transform/ConverterToXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transform/ConverterToXml.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/transformToCSV.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transformToCSV.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/resultThirdTask.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/resultThirdTask.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +45,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kjJNO4bILuv4vEtcDFUyIqEfeN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -56,7 +63,6 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -64,7 +70,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringJMS/src/main/resources/application.properties" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -83,6 +89,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -95,64 +102,36 @@
       <updated>1606208026385</updated>
       <workItem from="1606208029956" duration="17238000" />
       <workItem from="1606282486629" duration="15135000" />
+      <workItem from="1704889573264" duration="6410000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="275" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606213144418">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606213144418" />
-    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1606284732686">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606284732686" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1606215828397">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606215828397" />
-    <state width="1323" height="98" key="GridCell.Tab.0.bottom" timestamp="1606302297645">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="98" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606302297645" />
-    <state width="1323" height="98" key="GridCell.Tab.0.center" timestamp="1606302297645">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="98" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606302297645" />
-    <state width="1323" height="98" key="GridCell.Tab.0.left" timestamp="1606302297645">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="98" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606302297645" />
-    <state width="1323" height="98" key="GridCell.Tab.0.right" timestamp="1606302297645">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="98" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606302297645" />
-    <state width="1323" height="131" key="GridCell.Tab.1.bottom" timestamp="1606289644831">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="131" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606289644831" />
-    <state width="1323" height="131" key="GridCell.Tab.1.center" timestamp="1606289644831">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="131" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606289644831" />
-    <state width="1323" height="131" key="GridCell.Tab.1.left" timestamp="1606289644831">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="131" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606289644831" />
-    <state width="1323" height="131" key="GridCell.Tab.1.right" timestamp="1606289644831">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="131" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606289644831" />
-    <state x="454" y="84" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606284464844">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="454" y="84" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1606284464844" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606213486465">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606213486465" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/db/H2Service.java</url>
+          <line>8</line>
+          <properties class="db.H2Service" method="showDatabase">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,10 +1,11 @@
 import db.H2Factory;
-import db.H2Repo;
-import transform.ConverterToXml;
+import db.H2Service;
+import db.H2ServiceImpl;
+import converter.ConverterToXml;
+import converter.ConverterToXmlJAXB;
+import transform.TransformXmlFile;
 
 import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
 
 public class Main {
     private static final String JDBC_DRIVER = "org.h2.Driver";
@@ -15,14 +16,28 @@ public class Main {
     public static void main(String[] args) {
         Connection connection = H2Factory.getConnection(JDBC_DRIVER, URL, USER, PASSWORD);
 
-        H2Repo h2Repo = new H2Repo(connection);
-        h2Repo.createTable();
-        h2Repo.insertValuesInTable(1100);
-        h2Repo.showDatabase(false);
+        // Preparation
+        H2Service h2ServiceImpl = new H2ServiceImpl(connection);
+        h2ServiceImpl.createTable();
+        h2ServiceImpl.insertValuesInTable(10);
+        h2ServiceImpl.showDatabase(false);
 
-        ConverterToXml converterToXml = new ConverterToXml();
-        //converterToXml.convertToXmlDOM(h2Repo.showDatabase(true));
-        converterToXml.convertToXmlJAXB(h2Repo.showDatabase(true));
+        // First Task
+        ConverterToXml converterToXml = new ConverterToXmlJAXB();
+        converterToXml.convert(h2ServiceImpl.showDatabase(true));
+
+        TransformXmlFile transformXmlFile = new TransformXmlFile();
+
+        // Second Task
+        transformXmlFile.transformXmlFile("./src/main/resources/transform.xsl",
+                "./src/main/resources/resultFirstTask.xml",
+                "./src/main/resources/resultSecondTask.xml", 4);
+
+
+        // Third Task
+        transformXmlFile.transformXmlFile("./src/main/resources/transformToCSV.xsl",
+                "./src/main/resources/resultSecondTask.xml",
+                "./src/main/resources/resultThirdTask.txt", 0);
 
         try {
             connection.close();
